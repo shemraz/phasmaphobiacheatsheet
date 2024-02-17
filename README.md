@@ -104,7 +104,13 @@ _If you are certain that average sanity is above 50% and no hunts are being init
 ### Yurei
 - When the yurei uses its ability sanity is decreased by 15%.
   - If the room has one or more open doors, it will fully close one door at random and produse an EMF level 2.
-  - The Yurei cannot use its ability if its in a room with no door.
+  - The Yurei cannot use its ability if its in a room with no door (lockers and closets do not count as doors, however tent and exit doors do).
+- Keeping doors wide open near the ghost will help show when it uses its ability.
+  - If the ghost shuts an exit door fully without a ghost event or hunt, then it is very likely a Yurei.
+    - Note that The Mimic will leave Ultraviolet evidence on the exit door if it has been affected by the Yurei's ability, provided that type of evidence is not hidden.
+  - If the ghost shuts any other door fully, then it is likely (but not definitely) a Yurei.
+
+_If you insense a ghost and it walks through salt outside it's room less than 60s later, it cannot be a Yurei._
 
 ### Oni
 - Higher chance to become more active with at least 1 player in the same room.
@@ -123,3 +129,28 @@ _If the ghost ever appears in mist form during ghost events or phases out of vis
 - Has to be within 2.5m radius for music box to trigger a scare event and cursed hunt.
 
 _If you are certain that average sanity is between 50-80% (best to use a candle for this) and relentless talking is not triggering any hunts, or if it repeatedly can sense your voice or your flashing electronics during hunts between 2.5 and 7.5 metres distance away, you can rule out Yokai._
+
+
+### Hantu
+
+- Freezing temps is mandatory in games with > 1 available evidence.
+- Higher chance to turn off the fuse box.
+  - Cannot turn fuse box on.
+- Shows freezing breath during hunts if fuse box is off.
+- Speed scales with room temperature from 1.4 m/s at 15°C to 2.7 m/s at 0°C or below.
+
+_If there are no freezing temperatures in the ghost room, or if it gradually accelerates in speed with line-of-sight like the average ghost during hunts, you can rule out Hantu._
+
+### Goryo
+
+- Dots is mandatory in games with > 1 available evidence.
+- Dots only visible by player who is not in the ghost room and is watching the camera.
+- Cannot do long long roams and will never change ghost room.
+
+_If you can see DOTS evidence without a video camera, or if the ghost ever clearly changes its ghost room, you can rule out Goryo._
+
+### Myling
+- Higher chance to be more vocal on the parabolic microphone.
+- Cannot emit any audible sound from greater than 12m away during scare events or music box activation.
+
+_If you are on the same floor as the ghost during the hunt and you can hear its voice and/or footsteps outside of the electronic disturbance radius, you can rule out Myling._
