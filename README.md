@@ -51,9 +51,9 @@ _If the ghost has not thrown an object every 0.5s (when it has had access to one
 
 _If the ghost changes targets during a hunt when everyone is inside the investigation area, you can rule out Banshee._
 
-### jinn
+### Jinn
 - The Jinn cannot turn off the fusebox, however it can turn on a light, which can then trip the fuse.
-- The jinn will not interact with electronics more often than other ghosts.
+- The Jinn will not interact with electronics more often than other ghosts.
 - When the Jinn uses its ability there will be an EMF reading of 2/5 at the fusebox
   - Leave an EMF reader at the fuse box while the fuse box is on; if it picks up a reading but the fuse box never turned off, then it is very likely the Jinn using its ability.
 - The Jinn will move faster when all of the following are true:
@@ -154,3 +154,54 @@ _If you can see DOTS evidence without a video camera, or if the ghost ever clear
 - Cannot emit any audible sound from greater than 12m away during scare events or music box activation.
 
 _If you are on the same floor as the ghost during the hunt and you can hear its voice and/or footsteps outside of the electronic disturbance radius, you can rule out Myling._
+
+### Onryo
+- Ability to initiate a hunt at any average sanity after blowing out a firelight.
+  - The hunt can start immediately or up to 6 seconds after the firelight is extinguished.
+- Cannot initiate a hunt within a 4m radius of a lit firelight.
+  - Acts as a crucifix.
+  - Onryo will blow out a lit firelight if it is within 4m of it when attempting to hunt.
+  - Higher chance to blow out firelights, increases each time a player dies.
+- Can hunt at 60% average sanity or lower if no firelights are lit.
+
+_If the ghost blows out a sole firelight three times and it does not trigger a hunt, or if it starts a hunt in close proximity to a lit firelight or if a crucifix (below tier III) prevents a hunt despite a lit firelight on top of it, you can rule out Onryo._
+
+### The Twins
+- Ability to produce simultaneous interactions within a 16m radius.
+  - A normal interaction immediately followed by a second interaction.
+- The primary twin moves at 1.5 m/s during hunts.
+- The secondary twin moves at 1 m/s during hunts.
+- Each twin has a 50% chance to initiate a hunt.
+  - The primary twin will hunt from the ghost's physical location.
+  - The secondary twin will hunt from nearby where a secondary interaction recently occurred.
+
+_If the ghost's movement speed during hunts sounds normal or too slow or even too fast without line-of-sight, you can rule out the Twins._
+
+### Raiju
+- Can hunt at 65% average sanity if electronic equipment is nearby.
+- Moves at 2.5 m/s during hunts if electronic equipment is nearby.
+  - Siphoning radius scales with map size.
+      - 6m on small maps.
+      - 8m on medium maps.
+      - 10m on large maps.
+- Causes electronic disturbance within a 15m radius.
+
+_If the ghost doesn't suddenly get a speed boost as it walks past active electronic equipment, you can rule out Raiju._
+
+### Obake
+- Fingerprints is mandatory in games with > 1 available evidence.
+- Slight chance to leave behind unique evidence when interacting with objects:
+  - Six-fingered handprint on doors and surfaces.
+  - Two-fingered prints on light switches.
+  - Five-fingered prints on keyboards and prison cell doors.
+- Has a 25% chance of not leaving behind any fingerprints after an interaction.
+- Ability to halve the duration of all existing fingerprints and footprints in the investigation area.
+  - This ability can be used once every 60 seconds.
+  - The Obake will not leave behind any fingerprints or footprints during hunts, can be used multiple times on the same evidence.
+- Has a 6.66% chance to briefly change its ghost model when phasing during hunts.
+  - Will immediately revert to its original model after phasing.
+  - Guaranteed to happen at least once during each hunt.
+
+_If the ghost has touched doors and other relevant surfaces a few times but has not once left behind fingerprints, or if you observe the ghost for the entire duration of hunts and you never witness it shapeshift, you can rule out Obake._
+
+### The Mimic
