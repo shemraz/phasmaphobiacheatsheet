@@ -1,6 +1,3 @@
-
-
-
 # Phasmophobia Cheat Sheet
 
 ## Ghosts
@@ -205,3 +202,54 @@ _If the ghost doesn't suddenly get a speed boost as it walks past active electro
 _If the ghost has touched doors and other relevant surfaces a few times but has not once left behind fingerprints, or if you observe the ghost for the entire duration of hunts and you never witness it shapeshift, you can rule out Obake._
 
 ### The Mimic
+- Ghost orb is not a primary evidence type, so they are always present with the Mimic.
+- Changes the ghost it mimics at random intervals between 30 and 120 seconds.
+- Can mimic any ability and secondary evidence traits of any other ghost, except from Goryo's DOTS.
+
+_If you can't see a ghost orb despite looking hard enough, or if the ghost's behaviour remains consistent throughout the investigation or if its movement speed during hunts is different from the average ghost but appears to be maintaining the same speed for at least three consecutive hunts, you can rule out the Mimic._
+
+### Moroi
+- Spirit box is mandatory in games with > 1 available evidence.
+- Spirit box and noises from parabolic microphone can inflict curse on player.
+  - Curse doubles rate of passive sanity drain.
+  - Cannot be paused by light sources or candles.
+  - Can be paused by leaving the building.
+  - Cured by sanity pills or by dying.
+- Starting movement speed during hunts scales with average sanity:
+  - 1.5 m/s at 50% average sanity.
+  - 2.25 m/s at 0% average sanity.
+  - Max speed is 3.71 m/s at 0% average sanity with LoS on a player.
+- Blinded and disoriented when smudged for 150% of the base duration.
+  - Base duration is 5 seconds.
+  - Increased to 7.5 seconds for Moroi.
+
+_If you are at low or zero average sanity and the ghost does not appear to be moving noticeably faster during hunts, or if you smudge it during a hunt but it seems to regain its senses after the base duration of the incense used, you can rule out Moroi._
+
+### Deogen
+- If the player asks a question over the spirit box within 1 meter of the deogen, there is a 33% chance that it will give a unique response of heavy "bull like" breathing.
+- During a hunt the Deogen always has line of sight.
+- During a hunt the Deogen wil move at different speeds:
+  - \>6m: 3m/s
+  - 6m - 2.5m: 0.4 - 3m/s
+  - <2.5m: 0.4m/s 
+- If you have not ruled out Deogen then you should pick a hiding spot that you can leave easily and won't trap you in.
+- You can circle around medium to large objects to escape during a hunt due to it's low speed.
+  - Be aware that server lag may mean that it is closer than it appears.
+
+_If a ghost cannot find you in a hiding space, you can rule out Deogen_
+
+
+### Thaye
+- Tries to age every 1-2 minutes.
+  - Will retry after failed attempt after 30 seconds.
+  - Can age a total of 10 times.
+  - Each aging weakens the ghost.
+- Decreases average sanity threshold for hunts by -6% per age.
+  - Ranges from 75% to 15% average sanity.
+  - Movement speed decrease ranges from 2.75 m/s to 1 m/s.
+- Decreases interaction rate and chance for scare events by -15% per age.
+  - Ranges from 200% to 50% chance.
+- Can show its changing and increasing age when asked via the Ouija board.
+- Movement speed during hunts cannot accelerate based on LoS.
+
+_If the ghost accelerates in movement speed during hunts with line-of-sight, you can rule out Thaye._
