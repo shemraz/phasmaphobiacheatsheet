@@ -115,8 +115,10 @@ _If the ghost does not dramatically speed up when sensing a player's location, o
   - 100% chance to scare at 0% average sanity.
 - Will only hunt at 35% average sanity or lower.
 - Will not initiate a hunt in the same room as a player.
+- Cannot blow out firelights if players are in the room.
 
-_If you are certain that average sanity is at 100% and the ghost does a ghost event, or if you are certain that average sanity is above 35% and the ghost started a hunt, or even if it started a hunt at any sanity in the same room as any player, you can rule out Shade._
+_If you are certain that average sanity is at 100% and the ghost does a ghost event, or if you are certain that average sanity is above 35% and the ghost started a hunt, or even if it started a hunt at any sanity in the same room as any player, you can rule out Shade.
+If the ghost blows out a firelight in the same room as a player, you can rule out Shade._
 
 ### Demon
 - Ability gives a chance to hunt at 100% average sanity.
